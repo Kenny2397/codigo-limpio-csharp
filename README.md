@@ -83,4 +83,11 @@ Analiza estilo y calidad del codigo.
 Open Source
 Integrado por defecto en Visual Studio y al dotnet CLI.
 
+# Common Language Specification:
+
+Es un conjunto de reglas y métricas básicas que necesitan seguir y cumplir los lenguajes compatibles con .NET para luego ser compilados(Roslyn) a otro lenguaje neutral intermedio llamado CIL (Common Intermediate Language) donde finalmente será traducido al CLR (Common Language Runtime) que dará como resultado un lenguaje Assembly, lenguaje máquina.
+
+El CLS asegura la completa interoperabilidad entre las aplicaciones, independientemente del lenguaje utilizado para crear la aplicación.
+
+
 
