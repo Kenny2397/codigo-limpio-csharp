@@ -89,5 +89,21 @@ Es un conjunto de reglas y métricas básicas que necesitan seguir y cumplir los
 
 El CLS asegura la completa interoperabilidad entre las aplicaciones, independientemente del lenguaje utilizado para crear la aplicación.
 
+# Common Type System
+Common Type System
 
+Define los tipos generales que se usan dentro del lenguaje compatible con .NET.
+Provee la librería base para los tipos primitivos (byte, char, int).
+Provee un modelo de tipos orientado a objetos.
+
+# Instalando el SDK
+sdk .net LTS
+WSL puede usar este tutorial
+( https://www.dotnetthailand.com/programming-cookbook/wsl-powershell-useful-scripts/install-dotnet )
+
+# dotnet CLI
+dotnet run 
+dotnet build
+dotnet restore
+dotnet watch run 
 
