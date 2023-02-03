@@ -107,3 +107,37 @@ dotnet build
 dotnet restore
 dotnet watch run 
 
+# 📁⚙ Archivos de compilación
+ㅤ
+
+Dentro del proceso de compilación tenemos dos carpetas relacionadas
+ㅤ
+📁 bin : Contiene el archivo compilado del proyecto .dll y más
+
+📁 obj : Tiene los archivos que se generan en la compilación de manera temporal, par despues ser entregado al archivo bin.
+ㅤ
+| 💡 Para limpiar la compilación hecha, podemos usar el comando dotnet clean
+ㅤ
+
+Existen dos modos de compilación en .NET
+ㅤ
+modo debug
+Prepara la aplicación para el uso en un ámbito de pruebas, suele ser un poco más pesado que el modo de compilado release. Se recomienda no usar este compilado en modo producción, ya que se puede exponer información que solo nos interesa que se muestre cuando estamos probando y no así cuando nuestros clientes lo ejecuten.
+ㅤ
+modo release
+
+Prepara la aplicación para que esté lista en producción, tenga un mejor performance y rendimiento, además de que sea mucho más liviano. Elimina todos los archivos que no se necesitan en producción.
+
+# el comando que nos permite compilar a producción es
+dotnet build --configuration release
+Ideas/conceptos claves
+ㅤ
+
+.dll: es un archivo que viene una compilación de un lenguaje de alto nivel (ej. C#)
+ㅤ
+.exe: es un archivo ejecutable que únicamente se utiliza en Windows, resumiendo su funcionamiento toma el archivo .dll y lo ejecuta en nuestro ordenador.
+
+# Archivo globaljson
+dotnet new globaljson
+
+
